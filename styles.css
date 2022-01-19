@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  max-height: auto;
+  max-width: auto;
+  background-color: lightgrey;
+  /* font-family: "Caveat", cursive; */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+#main-container {
+  margin: auto;
+  width: 640px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid blue;
+}
+
+#score-table {
+  width: 100%;
+  height: 50%;
+  border: 5px solid aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  position: relative;
+}
+
+.col-one {
+  width: 30%;
+  padding: 10px;
+  font-size: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#score-col {
+  flex: 1;
+  padding: 10px;
+  width: 16%;
+}
+
+#game-info {
+  width: 100%;
+  height: 10%;
+  border: 5px solid tomato;
+}
+
+#card-status {
+  width: 100%;
+  height: 10%;
+  border: 5px solid grey;
+}
+
+#card-container {
+  width: 100%;
+  height: 20%;
+  border: 5px solid lightgreen;
+}
+
+#buttonAndBet-container {
+  width: 100%;
+  height: 10%;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+  border: 5px solid lightskyblue;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  background-color: #edf2f4;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.suit {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.name {
+  margin: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.red {
+  color: red;
+}
